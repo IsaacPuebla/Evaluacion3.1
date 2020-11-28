@@ -42,9 +42,9 @@ public class BBDD {
     }
     @Override
     public String toString() {
-        return  " Nombre ='" + Nombre + '\'' +
-                " Destino ='" + Destino + '\'' +
-                " Promocion ='" + Promocion + '\'';
+        return  "*"+" Nombre =" + Nombre + '\n' +
+                "*"+" Destino =" + Destino + '\n'+
+                "*"+" Promocion =" + Promocion + '\n';
     }
 }
 

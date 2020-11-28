@@ -3,6 +3,7 @@ package com.example.evaluacion3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -30,6 +31,7 @@ public class Promociones_act extends AppCompatActivity {
         editPromo=findViewById(R.id.editPrmociond);
         editValor=findViewById(R.id.editValord);
         btnCalculo=findViewById(R.id.btnCalculo);
+        btnCalculo.setBackgroundColor(Color.RED);
         textoInfo=findViewById(R.id.text);
         textoValor=findViewById(R.id.text2);
 

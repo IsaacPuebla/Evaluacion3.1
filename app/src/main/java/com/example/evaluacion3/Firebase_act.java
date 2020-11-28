@@ -3,6 +3,7 @@ package com.example.evaluacion3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -35,6 +36,7 @@ public class Firebase_act extends AppCompatActivity {
         editNombre=findViewById(R.id.editNombre);
         editDestino=findViewById(R.id.editDestino);
         editPromo=findViewById(R.id.editPromo);
+
 
         inicializar();
         btnGuardar.setOnClickListener(new View.OnClickListener() {
